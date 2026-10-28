@@ -20,6 +20,8 @@ Tiga unit test memeriksa:
 
 ## Skenario demo
 
+**Status runtime:** belum terverifikasi. Emulator API 35 dan 37 pada lingkungan pengerjaan mengalami boot tidak stabil/ADB timeout sebelum aplikasi dapat diuji. Build, unit test, dan lint di atas adalah hasil aktual; daftar demo berikut adalah langkah yang masih harus dijalankan, bukan klaim sudah lulus. Screenshot dua ukuran juga belum tersedia.
+
 1. Buka aplikasi dan tunjukkan keadaan daftar kosong.
 2. Tekan **Tambah pinjaman** tanpa isi; pesan wajib isi muncul.
 3. Isi **Payung** dan **Rina**, lalu tekan **Tambah pinjaman**.

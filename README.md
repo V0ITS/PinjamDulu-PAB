@@ -99,15 +99,9 @@ Pemetaan materi:
 
 Sketsa: [dua ukuran layar](docs/sketsa-layout.svg).
 
-### Screenshot aplikasi pada emulator
+### Screenshot aplikasi
 
-Layar sempit:
-
-![Layar sempit](docs/screenshots/layar-sempit.png)
-
-Layar lebar:
-
-![Layar lebar](docs/screenshots/layar-lebar.png)
+Screenshot runtime **belum tersedia** karena emulator pada lingkungan pengerjaan belum berhasil menyelesaikan boot secara stabil. Sketsa dua ukuran tersedia di atas; sketsa tidak menggantikan screenshot. Sebelum pengumpulan, jalankan aplikasi dan tambahkan screenshot sempit serta lebar ke `docs/screenshots/`.
 
 ## Dokumen tugas
 
@@ -141,7 +135,7 @@ Keduanya wajib memahami alur UDF secara utuh. Setiap anggota perlu membuat perub
 - Source, konfigurasi Gradle, dan Gradle Wrapper tersedia.
 - `.gitignore` mengecualikan build, `local.properties`, kredensial, dan panduan lokal.
 - Nama/NIM, masalah, pengguna, solusi, fitur, langkah menjalankan, rencana kontribusi, dan contoh UDF tersedia.
-- Screenshot dua layout dan slide maksimal lima halaman tersedia di `docs/`.
+- Sketsa dua layout dan slide lima halaman tersedia di `docs/`; screenshot runtime masih perlu dilengkapi.
 - Status build dan uji dicatat pada `docs/PEMERIKSAAN.md`.
 - **Tindakan kelompok:** pastikan ketentuan jumlah anggota, kontribusi commit masing-masing akun, dan pengumpulan tautan sebelum pertemuan ke-13 terpenuhi.
 - Pastikan dosen dapat membuka https://github.com/V0ITS/PinjamDulu-PAB; jika private, berikan akses.
