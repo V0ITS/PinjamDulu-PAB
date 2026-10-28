@@ -1,0 +1,18 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+captures/
+# Panduan penjelasan kode hanya untuk pembekalan lokal, bukan GitHub.
+lokal/
+# Materi dosen menjadi referensi lokal; hasil tugas ada di docs/.
+M11-*.pdf
+M12-*.pdf
+M13-*.pdf
