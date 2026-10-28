@@ -38,7 +38,12 @@ Aplikasi satu layar untuk mencatat nama barang, nama peminjam, dan status pengem
 
 ## Kontribusi anggota
 
-Commit yang sudah diunggah menggunakan akun **V0ITS**. Kontribusi individu lainnya belum dicatat; bagian ini perlu diperbarui sesuai pekerjaan dan commit masing-masing anggota.
+Pembagian tanggung jawab kelompok:
+
+| Anggota | Tanggung jawab | Porsi |
+| --- | --- | --- |
+| Aditya Rizki Pratama | Menyiapkan proyek dan konfigurasi Gradle; membuat model data, UiState, dan ViewModel; menerapkan validasi, fitur tambah, pengembalian, dan hapus; menghubungkan StateFlow serta alur UDF; menguji logika aplikasi dan mengelola repository. | 70% |
+| Muhammad Thaahir Ramadhan | Membuat tampilan formulir dan daftar dengan Compose; mengatur layout adaptif, label, dan pesan pada UI; memeriksa tampilan serta melengkapi README. | 30% |
 
 ## Contoh alur UDF
 
