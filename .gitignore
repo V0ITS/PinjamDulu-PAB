@@ -10,9 +10,10 @@ keystore.properties
 .env
 .env.*
 captures/
-# Panduan penjelasan kode hanya untuk pembekalan lokal, bukan GitHub.
+# Penjelasan kode disimpan lokal, bukan GitHub.
+/Penjelasan-Kode.pdf
 lokal/
-# Materi dosen menjadi referensi lokal; hasil tugas ada di docs/.
+# Materi dosen menjadi referensi lokal.
 M11-*.pdf
 M12-*.pdf
 M13-*.pdf
