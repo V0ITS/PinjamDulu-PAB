@@ -9,7 +9,6 @@ Aplikasi Android sederhana untuk mencatat barang yang dipinjam teman. Dibuat den
 | Aditya Rizki Pratama | 24523098 |
 | Muhammad Thaahir Ramadhan | 24523081 |
 
-Ketentuan tugas menyebut tiga mahasiswa per kelompok. Daftar ini mengikuti dua identitas yang telah diberikan; anggota ketiga perlu ditambahkan jika diwajibkan dosen.
 
 ## Masalah, pengguna, dan solusi
 
