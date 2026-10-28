@@ -97,18 +97,9 @@ Pemetaan materi:
 - **M12:** model/UI/ViewModel terpisah, `viewModel()` lifecycle-aware, state layar milik ViewModel, UI menerima data dan callback.
 - **M13:** data class dengan `val`, `StateFlow` read-only, `update` + `copy`, list baru dengan `+`/`map`/`filter`, ID stabil, route, dan UDF. Jumlah daftar dihitung dari `.size`, tidak disimpan sebagai state kedua.
 
-Sketsa: [dua ukuran layar](docs/sketsa-layout.svg).
-
 ### Screenshot aplikasi
 
-Screenshot runtime **belum tersedia** karena emulator pada lingkungan pengerjaan belum berhasil menyelesaikan boot secara stabil. Sketsa dua ukuran tersedia di atas; sketsa tidak menggantikan screenshot. Sebelum pengumpulan, jalankan aplikasi dan tambahkan screenshot sempit serta lebar ke `docs/screenshots/`.
-
-## Dokumen tugas
-
-- [Slide presentasi (5 halaman)](docs/Slide-Presentasi.pdf)
-- [Pemeriksaan dan skenario demo](docs/PEMERIKSAAN.md)
-- [Sketsa layar sempit dan lebar](docs/sketsa-layout.svg)
-- File penjelasan kode untuk presentasi disimpan **hanya di folder lokal** sesuai permintaan kelompok.
+Screenshot runtime **belum tersedia** karena emulator pada lingkungan pengerjaan belum berhasil menyelesaikan boot secara stabil.
 
 ## Rencana kontribusi anggota
 
@@ -117,7 +108,7 @@ Pembagian berikut adalah **rencana tanggung jawab dan pembelajaran**, bukan klai
 | Anggota | Tanggung jawab |
 | --- | --- |
 | Aditya Rizki Pratama | Model, UiState, ViewModel; memahami validasi, tambah, kembali, hapus, dan unit test |
-| Muhammad Thaahir Ramadhan | Composable dan layout adaptif; memahami callback, screenshot, README, dan slide |
+| Muhammad Thaahir Ramadhan | Composable dan layout adaptif; memahami callback dan README |
 
 Keduanya wajib memahami alur UDF secara utuh. Setiap anggota perlu membuat perubahan nyata, memeriksa perubahan tersebut, lalu commit dan push menggunakan akun GitHub masing-masing. Jangan mengganti author untuk meniru kontribusi anggota lain.
 
@@ -135,8 +126,7 @@ Keduanya wajib memahami alur UDF secara utuh. Setiap anggota perlu membuat perub
 - Source, konfigurasi Gradle, dan Gradle Wrapper tersedia.
 - `.gitignore` mengecualikan build, `local.properties`, kredensial, dan panduan lokal.
 - Nama/NIM, masalah, pengguna, solusi, fitur, langkah menjalankan, rencana kontribusi, dan contoh UDF tersedia.
-- Sketsa dua layout dan slide lima halaman tersedia di `docs/`; screenshot runtime masih perlu dilengkapi.
-- Status build dan uji dicatat pada `docs/PEMERIKSAAN.md`.
+- Build APK dan 3 unit test berhasil; lint selesai dengan 0 error dan 9 warning. Pengujian runtime belum terverifikasi karena kendala emulator.
 - **Tindakan kelompok:** pastikan ketentuan jumlah anggota, kontribusi commit masing-masing akun, dan pengumpulan tautan sebelum pertemuan ke-13 terpenuhi.
 - Pastikan dosen dapat membuka https://github.com/V0ITS/PinjamDulu-PAB; jika private, berikan akses.
 
