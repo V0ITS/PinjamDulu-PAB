@@ -40,10 +40,10 @@ Aplikasi satu layar untuk mencatat nama barang, nama peminjam, dan status pengem
 
 Pembagian tanggung jawab kelompok:
 
-| Anggota | Tanggung jawab | Porsi |
-| --- | --- | --- |
-| Aditya Rizki Pratama | Menyiapkan proyek dan konfigurasi Gradle; membuat model data, UiState, dan ViewModel; menerapkan validasi, fitur tambah, pengembalian, dan hapus; menghubungkan StateFlow serta alur UDF; menguji logika aplikasi dan mengelola repository. | 70% |
-| Muhammad Thaahir Ramadhan | Membuat tampilan formulir dan daftar dengan Compose; mengatur layout adaptif, label, dan pesan pada UI; memeriksa tampilan serta melengkapi README. | 30% |
+| Anggota | Tanggung jawab |
+| --- | --- | 
+| Aditya Rizki Pratama | Menyiapkan proyek dan konfigurasi Gradle; membuat model data, UiState, dan ViewModel; menerapkan validasi, fitur tambah, pengembalian, dan hapus; menghubungkan StateFlow serta alur UDF; menguji logika aplikasi dan mengelola repository. |
+| Muhammad Thaahir Ramadhan | Membuat tampilan formulir dan daftar dengan Compose; mengatur layout adaptif, label, dan pesan pada UI; memeriksa tampilan serta melengkapi README. |
 
 ## Contoh alur UDF
 
