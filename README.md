@@ -53,6 +53,28 @@ Pembagian tanggung jawab kelompok:
 4. `StateFlow` menyediakan state terbaru kepada UI.
 5. `collectAsStateWithLifecycle()` mengamati perubahan, lalu Compose menampilkan catatan baru dan mengosongkan formulir.
 
+## Screenshot dua ukuran layar
+
+Screenshot diambil dari aplikasi yang berjalan pada emulator Pixel_6_Pro. Untuk tampilan lebar, ukuran dan density emulator diubah sementara, lalu dikembalikan ke pengaturan semula.
+
+### Layar ponsel — satu kolom
+
+1440 × 3120 px pada 560 dpi (sekitar 411 × 891 dp). Formulir dan daftar berada dalam satu area scroll.
+
+<img src="Screenshot-Ponsel.png" alt="Tampilan satu kolom pada layar ponsel" width="320">
+
+### Layar lebar — dua panel
+
+2000 × 1600 px pada 320 dpi (1000 × 800 dp). Formulir berada di kiri dan daftar pinjaman di kanan. Dua panel digunakan ketika lebar jendela minimal 840 dp dan tinggi minimal 480 dp.
+
+<img src="Screenshot-Layar-Lebar.png" alt="Tampilan dua panel pada layar lebar" width="720">
+
+## Slide presentasi
+
+[Unduh slide presentasi (PDF, 5 halaman)](Slide-Pinjam-Barang.pdf)
+
+Isi slide: masalah dan pengguna, solusi dan fitur, MVVM dan contoh UDF, screenshot dua ukuran layar, serta cara menjalankan dan kontribusi anggota.
+
 ## Referensi
 
 - Materi M11: UI/UX dan Adaptive Layout Compose.
